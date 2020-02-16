@@ -99,5 +99,5 @@ theme: melody
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https//chenjianzhen.github.io
+  repo: git@github.com:chenjianzhen/chenjianzhen.github.io.git
   branch: master
