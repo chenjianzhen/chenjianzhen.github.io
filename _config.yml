@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Laugh Tale
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: QQ永冻冰
+language: zh-Hans
 timezone: ''
 
 # URL
@@ -58,7 +58,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 0
   order_by: -date
 
 # Category & Tag
@@ -100,4 +100,8 @@ theme: melody
 deploy:
   type: git
   repo: git@github.com:chenjianzhen/chenjianzhen.github.io.git
-  branch: master
+  branch: blog
+
+# hexo-admin
+admin:
+  deployCommand: 'hexo-publish.bat'
