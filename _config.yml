@@ -100,7 +100,7 @@ theme: melody
 deploy:
   type: git
   repo: git@github.com:chenjianzhen/chenjianzhen.github.io.git
-  branch: blog
+  branch: master
 
 # hexo-admin
 admin:
